@@ -1,0 +1,153 @@
+body{
+    margin:0px;
+}
+.back{
+    width:100%;
+}
+.header{
+    width:100%;
+    height:100vh;
+    /*display:flex;*/
+    background-image: url(https://www.camerry.in/images/01.png);
+    background-size:cover;
+    background-position:center;
+}
+.navbar-toggler-icon{
+    border-color:aliceblue;
+}
+.navbar-nav{
+    display:flex;
+    margin:0 auto;
+}
+.nav-link{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    font-weight: 500;
+    margin: 0 14px;
+    transition: .15s;
+}
+.nav-link:hover{
+    opacity:.5;
+}
+.social_media{
+    height:20px;
+    width:20px;
+    font-weight: 700;
+}
+.main-body{
+    display:flex;
+}
+.col-md-6 .btn_explore{
+    width:150px;
+    height:45px;
+    border:2px solid;
+}
+.description .btn:hover{
+    color:black !important;
+    outline-color:#ffc107;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.footer_section{
+    background-color:#1c1c1c;
+    padding:0 130px;
+}
+.col-md-7{
+    h2{
+        color:#7c682a;
+        margin-bottom:5px;
+        font-family:'Segoe UI','Open Sans', 'Helvetica Neue';
+        font-weight: lighter;
+    }
+    p{
+        color:#d1bd74;
+        font-family:'Segoe UI','Open Sans', 'Helvetica Neue';
+    }
+}
+.footer-text{
+    color:#d1bd74;
+    font-weight: lighter;
+    font-size:18px;
+    line-height: 30px;
+}
+@media (min-width:1400px){
+    .big-text{
+        font-size:3.5rem;
+    }
+    .py-5{
+        padding:120px 150px 100px 0px !important;
+    }
+}
+@media (min-width:1200px) and (max-width:1399.99px){
+    .big-text{
+        font-size:3.1rem;
+    }
+    .py-5{
+        padding:120px 150px 100px 0px !important;
+    }
+}
+@media (min-width:992px) and (max-width:1199.99px){
+    .big-text{
+        font-size:2.5rem;
+    }
+    .py-5{
+        padding:120px 150px 100px 0px !important;
+    }
+    .main-body{
+        margin-bottom:0px !important;
+    }
+}
+@media (min-width:768px) and (max-width:991.99px){
+    .big-text{
+        font-size:1.6rem;
+    }
+    .col-md-4{
+        width:100%;
+        margin-bottom:50px;
+    }
+    .para{
+        font-size: .7rem;
+    }
+    .py-5{
+        padding:120px 150px 100px 0px !important;
+    }
+}
+@media(max-width:991.99px){
+    .col-md-4{
+        width:100%;
+        margin-bottom:50px;
+    }
+    .btn_explore{
+        margin:0 auto;
+    }
+    .main-body{
+        margin-bottom:0px !important;
+    }
+}
+@media (max-width:767.99px){
+    .navbar-text{
+        display:none;
+    }
+    .description{
+        text-align: center;
+        width:100%;
+    }
+    .intro_descr{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .footer_head{
+        text-align: center;
+    }
+    .btn_contact{
+        margin:0 auto;
+    }
+    .footer_section{
+        padding:0;
+    }
+    .footer-text{
+        text-align: center;
+    }
+}
